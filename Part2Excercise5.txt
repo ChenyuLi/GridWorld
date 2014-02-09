@@ -1,0 +1,15 @@
+To add a BoxBug actor to the grid:
+1) Create a new BoxBug object, with the desired value for sideLength as parameter
+
+	BoxBug billyHill = new BoxBug(5); 
+
+2) Add the new BoxBug to the world. Its location can either be random (by only having the parameter of the bug's name), or specific (by including a parameter for the position of the bug on the grid).
+
+	world.add(willyWolly); 
+
+	 
+	world.add(new Location(1,1), pillDre);
+
+3)If the color of the bug is desired to be set, call the setColor(Color.NameofColor) method from the BoxBug whose color is wished to change.
+
+	MrBug.setColor(Color.Blue);
